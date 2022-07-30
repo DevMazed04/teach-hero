@@ -1,0 +1,426 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TeachHero</title>
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="icons/favicon.png" type="image/x-icon">
+    <!-- bootstrap's css link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="styles/style.css">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/eb9297ad90.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="container">
+
+        <!-- ------- navbar start ------- -->
+        <nav class="navbar navbar-expand-lg mt-4 mt-sm-4 mt-md-4 mt-lg-5">
+            <div class="container px-md- ">
+                <a class="navbar-brand text-dark fw-semibold text- fs-2" href="">Teach Hero</a>
+                <div class="pe-3" style="margin-left:auto">
+                    <button type="button"
+                        class="btn btn-primary bg-gradient px-4 py-2 fw-semibold d-none d-sm-block d-md-block d-lg-none d-xl-none"
+                        data-bs-toggle="modal" data-bs-target="#ModalForm">
+                        Register</button>
+                </div>
+                <button class=" navbar-toggler border border-0" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarText">
+                    <ul class="navbar-nav mb-2 mx-auto  mb-lg-0">
+                        <li class="nav-item px-3">
+                            <a class="nav-link" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a class="nav-link" href="#">Courses</a>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a class="nav-link" href="#">Teach</a>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a class="nav-link" href="#">Success</a>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+
+                    </ul>
+                    <span class="navbar-text">
+                        <button type="button"
+                            class="btn btn-primary bg-gradient px-4 py-2 fw-semibold d-block d-sm-none d-md-none d-lg-block"
+                            data-bs-toggle="modal" data-bs-target="#ModalForm"> Register</button>
+                    </span>
+                </div>
+            </div>
+            </div>
+        </nav>
+        <!-- ------- navbar end ------- -->
+
+
+        <!-- ------- slider start ------- -->
+        <section class="container mt-3" style=" margin-bottom: 7rem">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="true">
+                <div class="carousel-inner rounded-1 th-slider-overlay">
+                    <div class="carousel-item active">
+                        <img src="images/cover/cover-1.jpg" class="d-block w-100" alt="cover-1">
+                        <div class="carousel-caption">
+                            <div>
+                                <h1 class="mt-5">Get Started Digital
+                                    Learning</h1>
+                                <p class="mt-3">Curiosity is the process of asking questions, genuine questions, that
+                                    are not leading to an ask for something in return.
+                                </p>
+                                <div class="btn btn-primary px-4 py-2 mt-2">Get Started</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="images/cover/cover-2.jpg" class="d-block w-100" alt="cover-2">
+                        <div class="carousel-caption d-flex align-items-center justify-content-center h-100">
+                            <div>
+                                <h1>Get Started Digital <br>
+                                    Learning</h1>
+                                <p>It is a long established fact that a reader will be distracted by the readable
+                                    <br>
+                                    content of a page when looking at its layout.
+                                </p>
+                                <div class="btn btn-primary bg-gradient">Get Started</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="images/cover/cover-3.jpg" class="d-block w-100" alt="cover-3">
+                        <div class="carousel-caption d-flex align-items-center justify-content-center h-100">
+                            <!-- <div> -->
+                            <h1>Get Started Digital <br>
+                                Learning</h1>
+                            <p>It is a long established fact that a reader will be distracted by the readable
+                                <br>
+                                content of a page when looking at its layout.
+                            </p>
+                            <div class="btn btn-primary">Get Started</div>
+                            <!-- </div> -->
+                        </div>
+                    </div>
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+        <!-- ------- slider start ------- -->
+    </header>
+
+
+    <main>
+        <!-- ------- discover section start ------- -->
+        <section class="container my-5">
+            <div class="mx-auto w-50">
+                <h1 class="fw-semibold text-center mb-3">Discover Our Popular
+                    Courses</h1>
+                <p class="text-center text-secondary" style="font-size: 14px">Curiosity is the process of asking
+                    questions, genuine
+                    questions, that are not leading to an ask for something in return.</p>
+            </div>
+
+        </section>
+        <!-- ------- discover section end ------- -->
+
+
+
+        <!-- ------- courses section start ------- -->
+        <section class="container my-5">
+
+            <div class="card m-0">
+                <div class="row">
+                    <div class="col-md-4 p-0">
+                        <img src="images/course/course-1.png" class="img-fluid rounded-start" alt="course-1">
+                    </div>
+                    <div class="col-md-8 d-flex justify-content-center align-items-center">
+                        <div class="card-body">
+                            <h5 class="card-title">Fundamental Of UI/UX Design</h5>
+                            <p class="card-text">Some quick example text to build on the card title
+                                and make up the bulk of the card.</p>
+                            <p class="card-text"><small class="text-info">Price : 20$</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-center">
+                <div class="btn btn-primary bg-gradient px-4 py-2 mt-4 ">See More Courses</div>
+            </div>
+
+        </section>
+        <!-- ------- courses section end ------- -->
+
+
+
+        <!-- ------- ready-to-join section start ------- -->
+        <section class="container my-5">
+            <div class="card p-0 p-lg-5 bg-primary bg-gradient">
+                <div
+                    class="card-body text-white text-center text-lg-start d-flex flex-column justify-content-center align-items-center d-lg-flex flex-lg-row justify-content-between px-2 py-4 p-sm-5 p-lg-0">
+                    <div class="mb-3 d-block d-lg-none">
+                        <h2 class="card-title mb-3 fw-semibold">Ready to Join?</h2>
+                        <div>
+                            <small class="card-text fw-lighter">Curiosity is the process of asking questions,
+                                genuine questions, that are not leading to an ask for something in return.
+                            </small>
+                        </div>
+                    </div>
+                    <div class="mb-3 w-50 d-none d-lg-block">
+                        <h2 class="card-title mb-3 fw-semibold">Ready to Join?</h2>
+                        <div>
+                            <small class="card-text fw-lighter">Curiosity is the process of asking questions,
+                                genuine questions, that are not leading to an ask for something in return.
+                            </small>
+                        </div>
+                    </div>
+
+                    <div class="d-flex align-items-center">
+                        <div>
+                            <button type="button"
+                                class="btn text-primary bg-gradient bg-white fw-semibold px-4 py-2 d-none d-lg-block"
+                                data-bs-toggle="modal" data-bs-target="#ModalForm">
+                                Register Now
+                            </button>
+                            <button type="button"
+                                class="btn text-primary bg-gradient bg-white fw-semibold px-4 py-2 d-lg-none"
+                                data-bs-toggle="modal" data-bs-target="#ModalForm">
+                                Registration
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal Form -->
+            <div class="modal fade" id="ModalForm" tabindex="-1" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <!-- Login Form -->
+                        <form action="">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Login Here</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="mb-3">
+                                    <label for="Username">Username<span class="text-danger">*</span></label>
+                                    <input type="text" name="username" class="form-control" id="Username"
+                                        placeholder="Enter Username">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="Password">Password<span class="text-danger">*</span></label>
+                                    <input type="password" name="password" class="form-control" id="Password"
+                                        placeholder="Enter Password">
+                                </div>
+                                <div class="mb-3">
+                                    <input class="form-check-input" type="checkbox" value="" id="remember" required>
+                                    <label class="form-check-label" for="remember">Remember
+                                        Me</label>
+                                    <a href="#" class="float-end">Forgot Password</a>
+                                </div>
+                            </div>
+                            <div class="modal-footer pt-4">
+                                <button type="button" class="btn btn-primary bg-gradient mx-auto w-100">Login</button>
+                            </div>
+                            <p class="text-center">Not yet account? <a href="#"> Signup Here</a></p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ------- ready-to-join section end ------- -->
+
+
+
+        <!-- ------- frequently-asked-questions section start ------- -->
+        <section class="container my-9 p-0">
+            <div class="mx-auto w-75">
+                <h1 class="fw-semibold text-center mb-4">Frequently Asked Questions</h1>
+                <p class="text-center text-secondary px-5 mx-auto w-75 fs-7">Curiosity is the process of asking
+                    questions, genuine questions, that are not leading to an ask for something in return.</p>
+            </div>
+            <!-- ------- accordion part start------- -->
+            <div class="accordion w-75 mx-auto my-5 border border-0" id="accordionExample">
+                <div class="accordion-item mb-3 border border-0">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button bg-light fw-semibold text-secondary px-4 py-4 border border-0"
+                            type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
+                            aria-controls="collapseOne">
+                            What is the difference between Flexbox and CSS Grid?
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body text-secondary px-4 pb-0">
+                            The key difference is that CSS Grid can be used to create two-dimensional layouts, while
+                            Flexbox
+                            can only be used to create one-dimensional layouts. The approach of CSS Grid is the layout
+                            first, while the Flexbox approach is primarily the content. The Flexbox layout is best
+                            suited to application components and small-scale layouts, while the Grid layout is designed
+                            for larger-scale layouts.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item mb-3 border border-0">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed bg-light fw-semibold text-secondary px-4 py-4"
+                            type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                            aria-controls="collapseTwo">
+                            What is the difference between Bootstrap and Tailwind?
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body text-secondary px-4 pb-0">
+                            Bootstrap comes with a set of pre-styled responsive, mobile-first components that possess a
+                            definite UI kit, while Tailwind offers predesigned widgets to build a site from scratch with
+                            fast UI development.
+                            Websites created with Bootstraps are known for their responsiveness and flawless design, but
+                            the looks are generic and similar, while Websites created using Tailwind CSS
+                            are much more customizable.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item mb-3 border border-0">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed bg-light fw-semibold text-secondary px-4 py-4"
+                            type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                            aria-expanded="false" aria-controls="collapseThree">
+                            What is CSS Box model?
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body text-secondary px-4 pb-0">
+                            The CSS box model is a container that contains multiple properties including borders,
+                            margin, padding, and the content itself. It is used to create the design and layout of web
+                            pages. It can be used as a toolkit for customizing the layout of different elements. The web
+                            browser renders every element as a rectangular box according to the CSS box model.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item border border-0">
+                    <h2 class="accordion-header" id="headingFour">
+                        <button class="accordion-button collapsed bg-light fw-semibold text-secondary px-4 py-4"
+                            type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false"
+                            aria-controls="collapseFour">
+                            What is a Semantic Tag?
+                        </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body text-secondary px-4 pb-0">
+                            HTML Semantic tags are those that clearly describe their meaning in a human and
+                            machine-readable way. A semantic tag clearly describes its meaning to both the browser
+                            and the developer.
+                            The header, nav, section, main, article, footer etc. are all considered semantic because
+                            they
+                            accurately describe the purpose of the element and the type of content that is
+                            inside them.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ------- accordion part end------- -->
+        </section>
+        <!-- ------- frequently-asked-questions section end ------- -->
+
+
+
+        <!-- ------- trusted companies section start ------- -->
+        <section class=" container my-5 p-0">
+            <div class="mx-auto w-75 d-md-none d-lg-block">
+                <h1 class="fw-semibold text-center mb-4">Trusted by over 1K+ companies</h1>
+                <div class="d-flex justify-content-center">
+                    <div>
+                        <img src="images/company/company-1.png" class="px-4" alt="">
+                    </div>
+                    <div>
+                        <img src="images/company/company-2.png" class="px-4" alt="">
+                    </div>
+                    <div>
+                        <img src="images/company/company-3.png" class="px-4" alt="">
+                    </div>
+                    <div>
+                        <img src="images/company/company-4.png" class="px-4" alt="">
+                    </div>
+                    <div>
+                        <img src="images/company/company-5.png" class="px-4" alt="">
+                    </div>
+                    <div>
+                        <img src="images/company/company-6.png" class="px-4" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ------- trusted companies section end ------- -->
+    </main>
+
+
+
+    <!-- ------- footer section start ------- -->
+    <footer class="text-center bg-dark text-white" style="margin-top: 7rem; padding: 5rem">
+        <h2 class="text-center mt-5 mb-3 fw-semibold">Teach Hero</h2>
+        <div class="text-center fw-lighter" style="font-size: 15px">
+            <small>Office 47/A, Block-D, New Building, Gulshan Area <br>
+                Dhaka-1212, Bangladesh </small>
+        </div>
+        <div class="fw-lighter my-2 fs-7">
+            <a href="index.html" class="text-decoration-none text-white">Privacy Policy</a> |
+            <a href="index.html" class="text-decoration-none text-white">Terms of Service</a>
+        </div>
+
+        <div class="text-center mb-2">
+            <div class="fs-5">
+                <a href="https://web.facebook.com/" target="_blank"><i
+                        class="fa-brands fa-facebook pe-2 text-primary hover"></i></a>
+
+                <a href="https://www.youtube.com/" target="_blank"><i
+                        class="fa-brands fa-youtube px-2 text-danger"></i></a>
+
+                <a href="https://twitter.com/?lang=en" target="_blank"><i
+                        class="fa-brands fa-twitter ps-2 text-info"></i></a>
+            </div>
+        </div>
+
+        <p class="text-center fw-lighter fs-8">
+            <span>© 2022 ||</span> <a class="text-decoration-none text-white" href="index.html">Teach Hero</a>
+        </p>
+    </footer>
+    <!-- ------- footer section end ------- -->
+
+
+    <!-- bootstrap's js link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

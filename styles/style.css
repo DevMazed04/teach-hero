@@ -1,0 +1,19 @@
+/*---------------- import google fonts ---------------- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+
+/*---------------- styles ---------------- */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.th-slider-overlay img {
+    filter: brightness(45%);
+}
+
+.my-9 {
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+}
