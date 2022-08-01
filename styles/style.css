@@ -9,11 +9,35 @@ body {
 }
 
 
-.th-slider-overlay img {
+.th-overlay img {
     filter: brightness(45%);
 }
 
 .my-9 {
     margin-top: 7rem;
     margin-bottom: 7rem;
+}
+
+
+
+/*---------------- media query ---------------- */
+@media only screen and (min-width:280px) and (max-width:767px) {
+
+    .fs-h1 {
+        font-size: 20px;
+    }
+
+    .h-cus {
+        height: 270px;
+    }
+
+    .fs-p {
+        font-size: 13px;
+    }
+
+    .carousel-caption {
+        width: 100% !important;
+        margin-left: -15%;
+        /* margin-bottom: -15px !important; */
+    }
 }
