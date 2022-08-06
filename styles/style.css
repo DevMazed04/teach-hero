@@ -7,9 +7,14 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-.th-overlay img {
+.slider-overlay img {
     filter: brightness(35%);
     opacity: 93%;
+}
+
+.courses {
+    margin: -13px;
+    row-gap: 25px;
 }
 
 
