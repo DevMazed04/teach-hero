@@ -18,17 +18,16 @@
 </head>
 
 <body>
-    <header class="container p-0 border">
+    <header class="container p-0">
         <!-- ------- navbar start ------- -->
         <nav class="navbar navbar-expand-lg mt-4">
-            <div class="container">
-                <a class="navbar-brand text-dark opacity-75 fw-semibold fs-2" href="">Teach Hero</a>
+            <div class="container px-0 mb-3">
+                <a class="navbar-brand text-dark opacity-75 fw-semibold fs-2" href="index.html">Teach Hero</a>
                 <div class="pe-3" style="margin-left:auto">
                     <button type="button"
                         class="btn btn-outline-primary bg-gradient px-4 py-2 fw-semibold d-none d-sm-block d-md-block d-lg-none d-xl-none"
                         data-bs-toggle="modal" data-bs-target="#ModalForm">
                         Register</button>
-
                 </div>
                 <button class="navbar-toggler border border-0 p-0" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false"
@@ -39,7 +38,7 @@
                 <div class="collapse navbar-collapse justify-content-end" id="navbarText">
                     <ul class="navbar-nav mb-2 mx-auto mb-lg-0">
                         <li class="nav-item px-3">
-                            <a class="nav-link" aria-current="page" href="#">Home</a>
+                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
                         </li>
                         <li class="nav-item dropdown px-3">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -47,30 +46,29 @@
                                 Courses
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item text-secondary" href="#">Javascript</a>
+                                <li><a class="dropdown-item text-secondary" href="#course-1">Javascript Advanced</a>
                                 </li>
-                                <li><a class="dropdown-item text-secondary" href="#">UI/UX Design</a></li>
-                                <li><a class="dropdown-item text-secondary" href="#">Web Development</a></li>
-                                <li><a class="dropdown-item text-secondary" href="#">Motion Graphics</a></li>
-                                <li><a class="dropdown-item text-secondary" href="#">Photography Basic</a></li>
-                                <li><a class="dropdown-item text-secondary" href="#">Digital Marketing</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#course-2">Web Development</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#course-3">Photography Basic</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#course-4">Basic UI/UX Design</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#course-5">Motion Graphics</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#course-6">Digital Marketing</a></li>
                             </ul>
                         </li>
                         <li class="nav-item px-3">
-                            <a class="nav-link" href="#">Teach</a>
+                            <a class="nav-link" href="#ready-to-join">Teach</a>
                         </li>
                         <li class="nav-item px-3">
-                            <a class="nav-link" href="#">Success</a>
+                            <a class="nav-link" href="#contact">Contact</a>
                         </li>
                         <li class="nav-item px-3">
-                            <a class="nav-link" href="#">Contact</a>
+                            <a class="nav-link" href="#faq">FAQ</a>
                         </li>
-
                     </ul>
                     <span class="navbar-text">
                         <button type="button"
                             class="btn btn-outline-primary bg-gradient px-4 py-2 fw-semibold d-block d-sm-none d-md-none d-lg-block"
-                            data-bs-toggle="modal" data-bs-target="#ModalForm"> Register</button>
+                            data-bs-toggle="modal" data-bs-target="#ModalForm">Register</button>
                     </span>
                 </div>
             </div>
@@ -80,7 +78,7 @@
 
 
         <!-- ------- slider start ------- -->
-        <section class="container mt-3">
+        <section class="container mt-3 px-0">
             <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner rounded-1 th-overlay">
                     <div class="carousel-item active">
@@ -93,7 +91,9 @@
                                 <p class="fw-lighter fs-p"> <small>Digital learning is the learning method based on the
                                         use of new digital tools to enable learners to learn in a different way.</small>
                                 </p>
-                                <div class="btn btn-primary bg-gradient px-md-3 px-lg-4 py-md-2 mt-2">Get Started</div>
+                                <div class="btn btn-primary bg-gradient px-md-3 px-lg-4 py-md-2 mt-2"
+                                    data-bs-toggle="modal" data-bs-target="#ModalForm">Get Started
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -108,7 +108,9 @@
                                 <p class="fw-lighter fs-p"> <small>Digital learning is the learning method based on the
                                         use of new digital tools to enable learners to learn in a different way.</small>
                                 </p>
-                                <div class="btn btn-primary bg-gradient px-md-3 px-lg-4 py-md-2 mt-2">Get Started</div>
+                                <div class="btn btn-primary bg-gradient px-md-3 px-lg-4 py-md-2 mt-2"
+                                    data-bs-toggle="modal" data-bs-target="#ModalForm">Get Started
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -123,7 +125,9 @@
                                 <p class="fw-lighter fs-p"> <small>Digital learning is the learning method based on the
                                         use of new digital tools to enable learners to learn in a different way.</small>
                                 </p>
-                                <div class="btn btn-primary bg-gradient px-md-3 px-lg-4 py-md-2 mt-2">Get Started</div>
+                                <div class="btn btn-primary bg-gradient px-md-3 px-lg-4 py-md-2 mt-2"
+                                    data-bs-toggle="modal" data-bs-target="#ModalForm">Get Started
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -144,15 +148,18 @@
     </header>
 
 
-    <main class="container border mt-sm-3 mt-lg-5">
+    <main class="container mt-sm-3 mt-lg-5 p-0 pt-3">
         <!-- ------- discover section start ------- -->
-        <section class="container mt-5">
+        <section class="container my-5">
             <div class="mx-auto w-50">
                 <h1 class="fw-semibold text-center mb-3 fs-h1">Discover Our Popular
                     Courses</h1>
-                <p class="text-center text-secondary p-custom"><small>Curiosity is the process of asking
+                <p class="text-center text-secondary p-custom">
+                    <small>Curiosity is the process of asking
                         questions, genuine
-                        questions, that are not leading to an ask for something in return.</small></p>
+                        questions, that are not leading to an ask for something in return.
+                    </small>
+                </p>
             </div>
         </section>
         <!-- ------- discover section end ------- -->
@@ -160,159 +167,20 @@
 
 
         <!-- ------------------courses section start----------------- -->
-        <div class="container mt-5 mb-2 text-center border border-danger p-0">
+        <div class="container mt-5 mb-3 text-center">
             <div class="row g-3">
-
                 <!-- single course 1 start -->
-                <div class="col-12 col-sm-12 col-lg-6">
-                    <div class="row p- border d-flex flex-column d-sm-flex flex-sm-row ">
-
-                        <div class="col-12 col-sm-3 col-lg-4">
-                            <img src="images/course/course-1.png" class="w-100 h-100 h-img mb-3 mb-sm-0" alt="course-1">
+                <div class="col-12 col-sm-12 col-lg-6" id="course-1">
+                    <div class="row border rounded-1 rounded-1  d-flex flex-column d-sm-flex flex-sm-row ">
+                        <div class="col-12 col-sm-3 col-lg-4 ps-0">
+                            <img src="images/course/course-2.png" class="w-100 h-100 h-img mb-3 mb-sm-0" alt="course-1">
                         </div>
 
-                        <div
-                            class="col-12 col-sm-9 col-lg-8 border border-warning d-flex justify-content-center align-items-center">
-                            <div class="border ps-3 ps-sm-0 pe-5">
-                                <h5 class="fw-semibold text-start text-black text-opacity-75 mb-2">Basic UI/UX Design
+                        <div class="col-12 col-sm-9 col-lg-8 d-flex justify-content-center align-items-center">
+                            <div class="ps-3 ps-sm-0 pe-5">
+                                <h5 class="fw-semibold text-start text-black text-opacity-75 mb-2">
+                                    Javascript Advanced
                                 </h5>
-                                <p class="text-secondary text-start lh-sm mb-3 mb-sm-2"> <small>This course is just
-                                        awesome.
-                                        You
-                                        can
-                                        easily join this course. This can be a great option for you to choose.</small>
-                                </p>
-                                <p class="text-start text-primary bg-gradient fw-semibold lh-sm mb-0"><small>Price:
-                                        35$</small> </p>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-                <!-- single course 1 end -->
-
-                <!-- single course 2 start -->
-                <div class="col-12 col-sm-12 col-lg-6">
-                    <div class="row p- border d-flex flex-column d-sm-flex flex-sm-row ">
-
-                        <div class="col-12 col-sm-3 col-lg-4">
-                            <img src="images/course/course-2.png" class="w-100 h-100 h-img mb-3 mb-sm-0" alt="course-2">
-                        </div>
-
-                        <div
-                            class="col-12 col-sm-9 col-lg-8 border border-warning d-flex justify-content-center align-items-center">
-                            <div class="border ps-3 ps-sm-0 pe-5">
-                                <h5 class="fw-semibold text-start text-black text-opacity-75 mb-2">Javascript Basic</h5>
-                                <p class="text-secondary text-start lh-sm mb-3 mb-sm-2"> <small>This course is just
-                                        awesome.
-                                        You
-                                        can
-                                        easily join this course. This can be a great option for you to choose.</small>
-                                </p>
-                                <p class="text-start text-primary bg-gradient fw-semibold lh-sm mb-0"><small>Price:
-                                        35$</small> </p>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-                <!-- single course 2 end -->
-
-                <!-- single course 3 start -->
-                <div class="col-12 col-sm-12 col-lg-6">
-                    <div class="row p- border d-flex flex-column d-sm-flex flex-sm-row ">
-
-                        <div class="col-12 col-sm-3 col-lg-4">
-                            <img src="images/course/course-3.png" class="w-100 h-100 h-img mb-3 mb-sm-0" alt="course-3">
-                        </div>
-
-                        <div
-                            class="col-12 col-sm-9 col-lg-8 border border-warning d-flex justify-content-center align-items-center">
-                            <div class="border ps-3 ps-sm-0 pe-5">
-                                <h5 class="fw-semibold text-start text-black text-opacity-75 mb-2">WEb Development</h5>
-                                <p class="text-secondary text-start lh-sm mb-3 mb-sm-2"> <small>This course is just
-                                        awesome.
-                                        You
-                                        can
-                                        easily join this course. This can be a great option for you to choose.</small>
-                                </p>
-                                <p class="text-start text-primary bg-gradient fw-semibold lh-sm mb-0"><small>Price:
-                                        45$</small> </p>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-                <!-- single course 3 end -->
-
-                <!-- single course 4 start -->
-                <div class="col-12 col-sm-12 col-lg-6">
-                    <div class="row p- border d-flex flex-column d-sm-flex flex-sm-row ">
-
-                        <div class="col-12 col-sm-3 col-lg-4">
-                            <img src="images/course/course-4.png" class="w-100 h-100 h-img mb-3 mb-sm-0" alt="course-4">
-                        </div>
-
-                        <div
-                            class="col-12 col-sm-9 col-lg-8 border border-warning d-flex justify-content-center align-items-center">
-                            <div class="border ps-3 ps-sm-0 pe-5">
-                                <h5 class="fw-semibold text-start text-black text-opacity-75 mb-2">Digital Marketing
-                                </h5>
-                                <p class="text-secondary text-start lh-sm mb-3 mb-sm-2"> <small>This course is just
-                                        awesome.
-                                        You
-                                        can
-                                        easily join this course. This can be a great option for you to choose.</small>
-                                </p>
-                                <p class="text-start text-primary bg-gradient fw-semibold lh-sm mb-0"><small>Price:
-                                        30$</small> </p>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-                <!-- single course 4 end -->
-
-                <!-- single course 5 start -->
-                <div class="col-12 col-sm-12 col-lg-6">
-                    <div class="row p- border d-flex flex-column d-sm-flex flex-sm-row ">
-
-                        <div class="col-12 col-sm-3 col-lg-4">
-                            <img src="images/course/course-5.png" class="w-100 h-100 h-img mb-3 mb-sm-0" alt="course-5">
-                        </div>
-
-                        <div
-                            class="col-12 col-sm-9 col-lg-8 border border-warning d-flex justify-content-center align-items-center">
-                            <div class="border ps-3 ps-sm-0 pe-5">
-                                <h5 class="fw-semibold text-start text-black text-opacity-75 mb-2">Photography Basic
-                                </h5>
-                                <p class="text-secondary text-start lh-sm mb-3 mb-sm-2"> <small>This course is just
-                                        awesome.
-                                        You
-                                        can
-                                        easily join this course. This can be a great option for you to choose.</small>
-                                </p>
-                                <p class="text-start text-primary bg-gradient fw-semibold lh-sm mb-0"><small>Price:
-                                        30$</small> </p>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-                <!-- single course 5 end -->
-
-                <!-- single course 6 start -->
-                <div class="col-12 col-sm-12 col-lg-6">
-                    <div class="row p- border d-flex flex-column d-sm-flex flex-sm-row ">
-
-                        <div class="col-12 col-sm-3 col-lg-4">
-                            <img src="images/course/course-6.png" class="w-100 h-100 h-img mb-3 mb-sm-0" alt="course-6">
-                        </div>
-
-                        <div
-                            class="col-12 col-sm-9 col-lg-8 border border-warning d-flex justify-content-center align-items-center">
-                            <div class="border ps-3 ps-sm-0 pe-5">
-                                <h5 class="fw-semibold text-start text-black text-opacity-75 mb-2">Motion Graphics</h5>
                                 <p class="text-secondary text-start lh-sm mb-3 mb-sm-2"> <small>This course is just
                                         awesome.
                                         You
@@ -323,17 +191,143 @@
                                         40$</small> </p>
                             </div>
                         </div>
+                    </div>
+                </div>
+                <!-- single course 1 end -->
 
+                <!-- single course 2 start -->
+                <div class="col-12 col-sm-12 col-lg-6" id="course-2">
+                    <div class="row border rounded-1 d-flex flex-column d-sm-flex flex-sm-row ">
+                        <div class="col-12 col-sm-3 col-lg-4 ps-0">
+                            <img src="images/course/course-3.png" class="w-100 h-100 h-img mb-3 mb-sm-0" alt="course-3">
+                        </div>
+
+                        <div class="col-12 col-sm-9 col-lg-8 d-flex justify-content-center align-items-center">
+                            <div class="ps-3 ps-sm-0 pe-5">
+                                <h5 class="fw-semibold text-start text-black text-opacity-75 mb-2">Web
+                                    Development</h5>
+                                <p class="text-secondary text-start lh-sm mb-3 mb-sm-2"> <small>This course is just
+                                        awesome.
+                                        You
+                                        can
+                                        easily join this course. This can be a great option for you to choose.</small>
+                                </p>
+                                <p class="text-start text-primary bg-gradient fw-semibold lh-sm mb-0"><small>Price:
+                                        45$</small> </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- single course 2 end -->
+
+                <!-- single course 3 start -->
+                <div class="col-12 col-sm-12 col-lg-6" id="course-3">
+                    <div class="row border rounded-1 d-flex flex-column d-sm-flex flex-sm-row ">
+                        <div class="col-12 col-sm-3 col-lg-4 ps-0">
+                            <img src="images/course/course-5.png" class="w-100 h-100 h-img mb-3 mb-sm-0" alt="course-5">
+                        </div>
+
+                        <div class="col-12 col-sm-9 col-lg-8 d-flex justify-content-center align-items-center">
+                            <div class="ps-3 ps-sm-0 pe-5">
+                                <h5 class="fw-semibold text-start text-black text-opacity-75 mb-2">
+                                    Photography Basic
+                                </h5>
+                                <p class="text-secondary text-start lh-sm mb-3 mb-sm-2"> <small>This course is just
+                                        awesome.
+                                        You
+                                        can
+                                        easily join this course. This can be a great option for you to choose.</small>
+                                </p>
+                                <p class="text-start text-primary bg-gradient fw-semibold lh-sm mb-0"><small>Price:
+                                        30$</small> </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- single course 3 end -->
+
+                <!-- single course 4 start -->
+                <div class="col-12 col-sm-12 col-lg-6" id="course-4">
+                    <div class="row border rounded-1 d-flex flex-column d-sm-flex flex-sm-row ">
+                        <div class="col-12 col-sm-3 col-lg-4 ps-0">
+                            <img src="images/course/course-1.png" class="w-100 h-100 h-img mb-3 mb-sm-0" alt="course-1">
+                        </div>
+
+                        <div class="col-12 col-sm-9 col-lg-8 d-flex justify-content-center align-items-center">
+                            <div class="ps-3 ps-sm-0 pe-5">
+                                <h5 class="fw-semibold text-start text-black text-opacity-75 mb-2">Basic
+                                    UI/UX Design
+                                </h5>
+                                <p class="text-secondary text-start lh-sm mb-3 mb-sm-2"> <small>This course is just
+                                        awesome.
+                                        You
+                                        can
+                                        easily join this course. This can be a great option for you to choose.</small>
+                                </p>
+                                <p class="text-start text-primary bg-gradient fw-semibold lh-sm mb-0"><small>Price:
+                                        35$</small> </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- single course 4 end -->
+
+                <!-- single course 5 start -->
+                <div class="col-12 col-sm-12 col-lg-6" id="course-5">
+                    <div class="row border rounded-1 d-flex flex-column d-sm-flex flex-sm-row ">
+                        <div class="col-12 col-sm-3 col-lg-4 ps-0">
+                            <img src="images/course/course-6.png" class="w-100 h-100 h-img mb-3 mb-sm-0" alt="course-6">
+                        </div>
+
+                        <div class="col-12 col-sm-9 col-lg-8 d-flex justify-content-center align-items-center">
+                            <div class="ps-3 ps-sm-0 pe-5">
+                                <h5 class="fw-semibold text-start text-black text-opacity-75 mb-2">Motion
+                                    Graphics</h5>
+                                <p class="text-secondary text-start lh-sm mb-3 mb-sm-2"> <small>This course is just
+                                        awesome.
+                                        You
+                                        can
+                                        easily join this course. This can be a great option for you to choose.</small>
+                                </p>
+                                <p class="text-start text-primary bg-gradient fw-semibold lh-sm mb-0"><small>Price:
+                                        40$</small> </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- single course 5 end -->
+
+                <!-- single course 6 start -->
+                <div class="col-12 col-sm-12 col-lg-6" id="course-6">
+                    <div class="row border rounded-1 d-flex flex-column d-sm-flex flex-sm-row ">
+                        <div class="col-12 col-sm-3 col-lg-4 ps-0">
+                            <img src="images/course/course-4.png" class="w-100 h-100 h-img mb-3 mb-sm-0" alt="course-4">
+                        </div>
+
+                        <div class="col-12 col-sm-9 col-lg-8 d-flex justify-content-center align-items-center">
+                            <div class="ps-3 ps-sm-0 pe-5">
+                                <h5 class="fw-semibold text-start text-black text-opacity-75 mb-2">Digital
+                                    Marketing
+                                </h5>
+                                <p class="text-secondary text-start lh-sm mb-3 mb-sm-2"> <small>This course is just
+                                        awesome.
+                                        You
+                                        can
+                                        easily join this course. This can be a great option for you to choose.</small>
+                                </p>
+                                <p class="text-start text-primary bg-gradient fw-semibold lh-sm mb-0"><small>Price:
+                                        30$</small> </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <!-- single course 6 end -->
-
             </div>
         </div>
 
         <!-- ---------- see more courses button------------ -->
         <div class="d-flex justify-content-center">
-            <div class="btn btn-primary bg-gradient px-4 py-2 mt-4">See More Courses</div>
+            <div class="btn btn-primary bg-gradient px-4 py-2 mt-4 mb-5">See More Courses</div>
         </div>
 
         <!-- ------------------courses section end----------------- -->
@@ -341,10 +335,11 @@
 
 
         <!-- ------- ready-to-join section start ------- -->
-        <section class="container my-5 p-0">
-            <div class="card p-lg-5 bg-primary bg-gradient">
+        <section class="container my-5 px-0 pt-3">
+            <div class="card p-lg-5 bg-primary bg-gradient" id="ready-to-join">
                 <div
-                    class="card-body text-white text-center text-lg-start d-flex flex-column justify-content-center align-items-center d-lg-flex flex-lg-row justify-content-between px-2 py-4 p-sm-5 p-lg-0">
+                    class="card-body text-white text-center text-lg-start d-flex flex-column justify-content-center align-items-center d-lg-flex flex-lg-row justify-content-between px-2 py-4 p-sm-5 py-lg-4 px-lg-4">
+
                     <div class="mb-3 d-block d-lg-none">
                         <h2 class="card-title mb-3 fw-semibold">Ready to Join?</h2>
                         <div>
@@ -353,7 +348,8 @@
                             </small>
                         </div>
                     </div>
-                    <div class="mb-3 w-50 d-none d-lg-block">
+
+                    <div class="mb-0 w-50 d-none d-lg-block">
                         <h2 class="card-title mb-3 fw-semibold">Ready to Join?</h2>
                         <div>
                             <small class="card-text fw-lighter">Curiosity is the process of asking questions,
@@ -365,7 +361,7 @@
                     <div class="d-flex align-items-center">
                         <div>
                             <button type="button"
-                                class="btn text-primary bg-gradient bg-white fw-semibold px-4 py-2 d-none d-lg-block"
+                                class="btn text-primary bg-gradient bg-white fw-semibold px-4 py-2  d-none d-lg-block"
                                 data-bs-toggle="modal" data-bs-target="#ModalForm">
                                 Register Now
                             </button>
@@ -422,18 +418,23 @@
 
 
         <!-- ------- frequently-asked-questions section start ------- -->
-        <section class="container p-0 border">
+        <section class="container pt-4">
             <div class="mt-md-4 mt-lg-5">
-                <h1 class="fw-semibold text-center mb-4 fs-h1">Frequently Asked Questions</h1>
-                <p class="text-center text-secondary w-50 mx-auto p-custom"><small>Curiosity is the process of asking
+                <h1 class="fw-semibold text-center mb-4 fs-h1" id="faq">Frequently Asked Questions</h1>
+                <p class="text-center text-secondary w-50 mx-auto p-custom">
+                    <small>Curiosity is the process of asking
                         questions, genuine
-                        questions, that are not leading to an ask for something in return.</small></p>
+                        questions, that are not leading to an ask for something in return.
+                    </small>
+                </p>
             </div>
+
             <!-- ------- accordion part start------- -->
-            <div class="accordion w-75 mx-auto my-5 border border-0" id="accordionExample">
+            <div class="accordion w-75 mx-auto my-5 px-5 border border-0" id="accordionExample">
                 <div class="accordion-item mb-3 border border-0">
                     <h2 class="accordion-header" id="headingOne">
-                        <button class="accordion-button bg-light fw-semibold text-secondary px-4 py-4 border border-0"
+                        <button
+                            class="accordion-button bg-gradient fw-semibold text-dark opacity-75 px-4 py-4 border border-0 rounded"
                             type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
                             aria-controls="collapseOne">
                             What is the difference between Flexbox and CSS Grid?
@@ -442,19 +443,23 @@
                     <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
                         data-bs-parent="#accordionExample">
                         <div class="accordion-body text-secondary px-4 pb-0">
-                            The key difference is that CSS Grid can be used to create two-dimensional layouts, while
-                            Flexbox
-                            can only be used to create one-dimensional layouts. The approach of CSS Grid is the layout
-                            first, while the Flexbox approach is primarily the content. The Flexbox layout is best
-                            suited to application components and small-scale layouts, while the Grid layout is designed
-                            for larger-scale layouts.
+                            <small>
+                                The key difference is that CSS Grid can be used to create two-dimensional layouts, while
+                                Flexbox
+                                can only be used to create one-dimensional layouts. The approach of CSS Grid is the
+                                layout
+                                first, while the Flexbox approach is primarily the content. The Flexbox layout is best
+                                suited to application components and small-scale layouts, while the Grid layout is
+                                designed
+                                for larger-scale layouts.
+                            </small>
                         </div>
                     </div>
                 </div>
-
                 <div class="accordion-item mb-3 border border-0">
                     <h2 class="accordion-header" id="headingTwo">
-                        <button class="accordion-button collapsed bg-light fw-semibold text-secondary px-4 py-4"
+                        <button
+                            class="accordion-button collapsed bg-gradient fw-semibold text-dark opacity-75 px-4 py-4 border border-dark border-opacity-10 rounded"
                             type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
                             aria-controls="collapseTwo">
                             What is the difference between Bootstrap and Tailwind?
@@ -463,19 +468,24 @@
                     <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                         data-bs-parent="#accordionExample">
                         <div class="accordion-body text-secondary px-4 pb-0">
-                            Bootstrap comes with a set of pre-styled responsive, mobile-first components that possess a
-                            definite UI kit, while Tailwind offers predesigned widgets to build a site from scratch with
-                            fast UI development.
-                            Websites created with Bootstraps are known for their responsiveness and flawless design, but
-                            the looks are generic and similar, while Websites created using Tailwind CSS
-                            are much more customizable.
+                            <small>
+                                Bootstrap comes with a set of pre-styled responsive, mobile-first components that
+                                possess a
+                                definite UI kit, while Tailwind offers predesigned widgets to build a site from scratch
+                                with
+                                fast UI development.
+                                Websites created with Bootstraps are known for their responsiveness and flawless design,
+                                but
+                                the looks are generic and similar, while Websites created using Tailwind CSS
+                                are much more customizable.
+                            </small>
                         </div>
                     </div>
                 </div>
-
                 <div class="accordion-item mb-3 border border-0">
                     <h2 class="accordion-header" id="headingThree">
-                        <button class="accordion-button collapsed bg-light fw-semibold text-secondary px-4 py-4"
+                        <button
+                            class="accordion-button collapsed bg-gradient fw-semibold text-dark opacity-75 px-4 py-4 border border-dark border-opacity-10 rounded"
                             type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree"
                             aria-expanded="false" aria-controls="collapseThree">
                             What is CSS Box model?
@@ -484,17 +494,21 @@
                     <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
                         data-bs-parent="#accordionExample">
                         <div class="accordion-body text-secondary px-4 pb-0">
-                            The CSS box model is a container that contains multiple properties including borders,
-                            margin, padding, and the content itself. It is used to create the design and layout of web
-                            pages. It can be used as a toolkit for customizing the layout of different elements. The web
-                            browser renders every element as a rectangular box according to the CSS box model.
+                            <small>
+                                The CSS box model is a container that contains multiple properties including borders,
+                                margin, padding, and the content itself. It is used to create the design and layout of
+                                web
+                                pages. It can be used as a toolkit for customizing the layout of different elements. The
+                                web
+                                browser renders every element as a rectangular box according to the CSS box model.
+                            </small>
                         </div>
                     </div>
                 </div>
-
                 <div class="accordion-item border border-0">
                     <h2 class="accordion-header" id="headingFour">
-                        <button class="accordion-button collapsed bg-light fw-semibold text-secondary px-4 py-4"
+                        <button
+                            class="accordion-button collapsed bg-gradient fw-semibold text-dark opacity-75 px-4 py-4 border border-dark border-opacity-10 rounded"
                             type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false"
                             aria-controls="collapseFour">
                             What is a Semantic Tag?
@@ -503,13 +517,15 @@
                     <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
                         data-bs-parent="#accordionExample">
                         <div class="accordion-body text-secondary px-4 pb-0">
-                            HTML Semantic tags are those that clearly describe their meaning in a human and
-                            machine-readable way. A semantic tag clearly describes its meaning to both the browser
-                            and the developer.
-                            The header, nav, section, main, article, footer etc. are all considered semantic because
-                            they
-                            accurately describe the purpose of the element and the type of content that is
-                            inside them.
+                            <small>
+                                HTML Semantic tags are those that clearly describe their meaning in a human and
+                                machine-readable way. A semantic tag clearly describes its meaning to both the browser
+                                and the developer.
+                                The header, nav, section, main, article, footer etc. are all considered semantic because
+                                they
+                                accurately describe the purpose of the element and the type of content that is
+                                inside them.
+                            </small>
                         </div>
                     </div>
                 </div>
@@ -521,28 +537,16 @@
 
 
         <!-- ------- trusted companies section start ------- -->
-        <section class=" container my-5 p-0">
-            <div class="mx-auto w-75 d-none d-lg-block">
+        <section class="container my-5 py-5">
+            <div class="d-none d-lg-block pt-3 pb-4">
                 <h1 class="fw-semibold text-center mb-4">Trusted by over 1K+ companies</h1>
-                <div class="d-flex justify-content-center">
-                    <div>
-                        <img src="images/company/company-1.png" class="px-4" alt="">
-                    </div>
-                    <div>
-                        <img src="images/company/company-2.png" class="px-4" alt="">
-                    </div>
-                    <div>
-                        <img src="images/company/company-3.png" class="px-4" alt="">
-                    </div>
-                    <div>
-                        <img src="images/company/company-4.png" class="px-4" alt="">
-                    </div>
-                    <div>
-                        <img src="images/company/company-5.png" class="px-4" alt="">
-                    </div>
-                    <div>
-                        <img src="images/company/company-6.png" class="px-4" alt="">
-                    </div>
+                <div class="d-flex justify-content-center align-items-center">
+                    <img src="images/company/company-1.png" class="px-4" alt="">
+                    <img src="images/company/company-2.png" class="px-4" alt="">
+                    <img src="images/company/company-3.png" class="px-4" alt="">
+                    <img src="images/company/company-4.png" class="px-4" alt="">
+                    <img src="images/company/company-5.png" class="px-4" alt="">
+                    <img src="images/company/company-6.png" class="px-4" alt="">
                 </div>
             </div>
         </section>
@@ -552,31 +556,28 @@
 
 
     <!-- ------- footer section start ------- -->
-    <footer class="text-center bg-dark text-white p-5 mt-5 pb-3 pb-sm-5">
-        <h2 class="text-center mt-0 mt-sm-5 mb-3 fw-semibold">Teach Hero</h2>
-        <div class="text-center fw-lighter" style="font-size: 15px">
+    <footer class="text-center bg-dark text-white p-5 mt-5 pb-3 pb-sm-5 pt-lg-5">
+        <h2 class="text-center mt-0 mt-sm-5 mb-3 fw-semibold pt-4">Teach Hero</h2>
+        <div class="text-center fw-lighter" id="contact" style="font-size: 15px">
             <small>Office 47/A, Block-D, New Building, Gulshan Area <br>
                 Dhaka-1212, Bangladesh </small>
         </div>
-        <div class="fw-lighter my-2 fs-7">
+        <div class="fw-lighter my-2">
             <a href="index.html" class="text-decoration-none text-white"><small>Privacy Policy</small></a> |
             <a href="index.html" class="text-decoration-none text-white"><small>Terms of Service</small></a>
         </div>
 
         <div class="text-center mb-2">
-            <div class="fs-5">
+            <div class="fs-4">
                 <a href="https://web.facebook.com/" target="_blank"><i
-                        class="fa-brands fa-facebook pe-2 text-primary hover"></i></a>
-
+                        class="fa-brands fa-facebook pe-2 text-primary"></i></a>
                 <a href="https://www.youtube.com/" target="_blank"><i
                         class="fa-brands fa-youtube px-2 text-danger"></i></a>
-
                 <a href="https://twitter.com/?lang=en" target="_blank"><i
                         class="fa-brands fa-twitter ps-2 text-info"></i></a>
             </div>
         </div>
-
-        <p class="text-center fw-lighter">
+        <p class="text-center fw-lighter pb-4">
             <span>© 2022 ||</span> <a class="text-decoration-none text-white" href="index.html">Teach Hero</a>
         </p>
     </footer>
