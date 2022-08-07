@@ -57,14 +57,17 @@ body {
 
 /*---------------- media query ---------------- */
 @media only screen and (min-width:577px) and (max-width:991px) {
-    .p-custom {
-        width: 85% !important;
-        margin-top: -10px;
-        font-size: 16px;
-    }
 
     .fs-slider-h1 {
         font-size: 35px;
+    }
+
+    .fs-discover-h1 {
+        font-size: 30px;
+    }
+  
+    .dis {
+        width: 85% !important;
     }
 
     .carousel-caption {
