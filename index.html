@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>TeachHero</title>
+    <title>Teach Hero</title>
 
     <!-- favicon -->
     <link rel="shortcut icon" href="icons/favicon.png" type="image/x-icon">
@@ -18,7 +18,7 @@
 </head>
 
 <body>
-    <header class="container p-0">
+    <header class="container px-4 p-sm-0">
         <!-- ------- navbar start ------- -->
         <nav class="navbar navbar-expand-lg mt-4">
             <div class="container px-0 mb-2">
@@ -81,7 +81,7 @@
 
 
         <!-- ------- slider start ------- -->
-        <section class="container mt-3 px-0">
+        <section class="container mt-1 mt-sm-3 px-0">
             <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner rounded slider-overlay">
                     <div class="carousel-item active">
@@ -90,10 +90,11 @@
                             style="margin-bottom: -20px">
                             <div class="w-75">
                                 <h1 class="fw-semibold mb-3 lh-sm fs-slider-h1">Get Started Digital
-                                    <br>
+                                    <br class="lh-slider">
                                     Learning
                                 </h1>
-                                <p class="fw-lighter lh-custom"> <small>Digital learning is the learning method based on
+                                <p class="fw-lighter lh-tab lh-mob"><small>Digital learning is the learning method
+                                        based on
                                         the
                                         use of new digital tools to enable learners to learn in a different way.</small>
                                 </p>
@@ -110,10 +111,11 @@
                             style="margin-bottom: -20px">
                             <div class="w-75">
                                 <h1 class="fw-semibold mb-3 lh-sm fs-slider-h1">Get Started Digital
-                                    <br>
+                                    <br class="lh-slider">
                                     Learning
                                 </h1>
-                                <p class="fw-lighter lh-custom"> <small>Digital learning is the learning method based on
+                                <p class="fw-lighter lh-tab lh-mob"><small>Digital learning is the learning method
+                                        based on
                                         the
                                         use of new digital tools to enable learners to learn in a different way.</small>
                                 </p>
@@ -130,10 +132,11 @@
                             style="margin-bottom: -20px">
                             <div class="w-75">
                                 <h1 class="fw-semibold mb-3 lh-sm fs-slider-h1">Get Started Digital
-                                    <br>
+                                    <br class="lh-slider">
                                     Learning
                                 </h1>
-                                <p class="fw-lighter lh-custom"> <small>Digital learning is the learning method based on
+                                <p class="fw-lighter lh-tab lh-mob"><small>Digital learning is the learning method
+                                        based on
                                         the
                                         use of new digital tools to enable learners to learn in a different way.</small>
                                 </p>
@@ -146,12 +149,12 @@
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
                     data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="carousel-control-prev-icon w-25" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
                 </button>
                 <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
                     data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="carousel-control-next-icon w-25" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
@@ -164,9 +167,9 @@
         <!-- ------- discover section start ------- -->
         <section class="container my-5">
             <div class="mx-auto w-50 w-discover">
-                <h1 class="fw-semibold text-center mb-3 fs-custom-h1">Discover Our Popular
+                <h1 class="fw-semibold text-center mb-3 fs-tab fs-mob">Discover Our Popular
                     Courses</h1>
-                <p class="text-center text-secondary lh-custom">
+                <p class="text-center text-secondary lh-tab">
                     <small>Curiosity is the process of asking
                         questions, genuine
                         questions, that are not leading to an ask for something in return.
@@ -179,25 +182,29 @@
 
 
         <!-- ------------------courses section start----------------- -->
-        <div class="mt-5 mb-5 text-center">
-            <div class="row gx-5 courses mt-0">
+        <div class="mt-5 mb-5 text-center px-4 px-sm-0">
+            <div class="row gx-5 courses mt-sm-0">
                 <!-- single course 1 start -->
                 <div class="col-12 col-sm-12 col-lg-6" id="course-1">
                     <div
-                        class="row border border-dark border-opacity-10 rounded-1 d-flex flex-column d-sm-flex flex-sm-row">
-                        <div class="col-12 col-sm-3 col-lg-4 ps-0">
-                            <img src="images/course/course-1.png" class="w-100 h-100 h-img mb-3 mb-sm-0" alt="course-1">
+                        class="row border border-dark border-opacity-10 rounded d-flex flex-column d-sm-flex flex-sm-row">
+                        <div class="col-12 col-sm-3 col-lg-4 px-0 px-sm-2 ps-sm-0">
+                            <img src="images/course/course-1.png" class="w-100 course-img mb-3 mb-sm-0" alt="course-1">
                         </div>
-                        <div class="col-12 col-sm-9 col-lg-8 d-flex justify-content-center align-items-center">
-                            <div class="ps-sm-0 pe-2">
+                        <div
+                            class="col-12 col-sm-9 col-lg-8 d-flex justify-content-center align-items-center course-info mb-0">
+                            <div class="ps-2 ps-sm-1 pe-sm-5 pe-lg-0">
                                 <h5 class="fw-semibold text-start text-black text-opacity-75 mb-2">
-                                    Javascript Advanced
+                                    Javascript Basic
                                 </h5>
-                                <p class="text-secondary text-start lh-sm mb-3 mb-sm-2"> <small>This course is just
+                                <p class="text-secondary text-start lh-sm mb-3 mb-sm-2 pe-4 pe-sm-0"><small>This
+                                        course is just
                                         awesome. This will definitely a great option for you to choose.</small>
                                 </p>
-                                <p class="text-start text-primary bg-gradient fw-semibold lh-sm mb-0"><small>Price:
-                                        40$</small> </p>
+                                <p class="text-start text-primary bg-gradient fw-semibold lh-sm mb-0"><small
+                                        class="fs-price">Price :
+                                        40$</small>
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -207,19 +214,23 @@
                 <!-- single course 2 start -->
                 <div class="col-12 col-sm-12 col-lg-6" id="course-2">
                     <div
-                        class="row border border-dark border-opacity-10 rounded-1 d-flex flex-column d-sm-flex flex-sm-row">
-                        <div class="col-12 col-sm-3 col-lg-4 ps-0">
-                            <img src="images/course/course-2.png" class="w-100 h-100 h-img mb-3 mb-sm-0" alt="course-2">
+                        class="row border border-dark border-opacity-10 rounded d-flex flex-column d-sm-flex flex-sm-row">
+                        <div class="col-12 col-sm-3 col-lg-4 px-0 px-sm-2 ps-sm-0">
+                            <img src="images/course/course-2.png" class="w-100 course-img mb-3 mb-sm-0" alt="course-2">
                         </div>
-                        <div class="col-12 col-sm-9 col-lg-8 d-flex justify-content-center align-items-center">
-                            <div class="ps-sm-0 pe-2">
+                        <div
+                            class="col-12 col-sm-9 col-lg-8 d-flex justify-content-center align-items-center course-info mb-0">
+                            <div class="ps-2 ps-sm-1 pe-sm-5 pe-lg-0">
                                 <h5 class="fw-semibold text-start text-black text-opacity-75 mb-2">Web
                                     Development</h5>
-                                <p class="text-secondary text-start lh-sm mb-3 mb-sm-2"> <small>This course is just
+                                <p class="text-secondary text-start lh-sm mb-3 mb-sm-2 pe-4 pe-sm-0"><small>This
+                                        course is just
                                         awesome. This will definitely a great option for you to choose.</small>
                                 </p>
-                                <p class="text-start text-primary bg-gradient fw-semibold lh-sm mb-0"><small>Price:
-                                        45$</small> </p>
+                                <p class="text-start text-primary bg-gradient fw-semibold lh-sm mb-0"><small
+                                        class="fs-price">Price :
+                                        45$</small>
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -229,20 +240,24 @@
                 <!-- single course 3 start -->
                 <div class="col-12 col-sm-12 col-lg-6" id="course-3">
                     <div
-                        class="row border border-dark border-opacity-10 rounded-1 d-flex flex-column d-sm-flex flex-sm-row">
-                        <div class="col-12 col-sm-3 col-lg-4 ps-0">
-                            <img src="images/course/course-3.png" class="w-100 h-100 h-img mb-3 mb-sm-0" alt="course-3">
+                        class="row border border-dark border-opacity-10 rounded d-flex flex-column d-sm-flex flex-sm-row">
+                        <div class="col-12 col-sm-3 col-lg-4 px-0 px-sm-2 ps-sm-0">
+                            <img src="images/course/course-3.png" class="w-100 course-img mb-3 mb-sm-0" alt="course-3">
                         </div>
-                        <div class="col-12 col-sm-9 col-lg-8 d-flex justify-content-center align-items-center">
-                            <div class="ps-sm-0 pe-2">
+                        <div
+                            class="col-12 col-sm-9 col-lg-8 d-flex justify-content-center align-items-center course-info mb-0">
+                            <div class="ps-2 ps-sm-1 pe-sm-5 pe-lg-0">
                                 <h5 class="fw-semibold text-start text-black text-opacity-75 mb-2">
                                     Photography Basic
                                 </h5>
-                                <p class="text-secondary text-start lh-sm mb-3 mb-sm-2"> <small>This course is just
+                                <p class="text-secondary text-start lh-sm mb-3 mb-sm-2 pe-4 pe-sm-0"><small>This
+                                        course is just
                                         awesome. This will definitely a great option for you to choose.</small>
                                 </p>
-                                <p class="text-start text-primary bg-gradient fw-semibold lh-sm mb-0"><small>Price:
-                                        30$</small> </p>
+                                <p class="text-start text-primary bg-gradient fw-semibold lh-sm mb-0"><small
+                                        class="fs-price">Price :
+                                        30$</small>
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -252,20 +267,24 @@
                 <!-- single course 4 start -->
                 <div class="col-12 col-sm-12 col-lg-6 d-none d-lg-block" id="course-4">
                     <div
-                        class="row border border-dark border-opacity-10 rounded-1 d-flex flex-column d-sm-flex flex-sm-row ">
-                        <div class="col-12 col-sm-3 col-lg-4 ps-0">
-                            <img src="images/course/course-4.png" class="w-100 h-100 h-img mb-3 mb-sm-0" alt="course-4">
+                        class="row border border-dark border-opacity-10 rounded d-flex flex-column d-sm-flex flex-sm-row ">
+                        <div class="col-12 col-sm-3 col-lg-4 px-0 px-sm-2 ps-sm-0">
+                            <img src="images/course/course-4.png" class="w-100 course-img mb-3 mb-sm-0" alt="course-4">
                         </div>
-                        <div class="col-12 col-sm-9 col-lg-8 d-flex justify-content-center align-items-center">
-                            <div class="ps-sm-0 pe-2">
+                        <div
+                            class="col-12 col-sm-9 col-lg-8 d-flex justify-content-center align-items-center course-info mb-0">
+                            <div class="ps-2 ps-sm-1 pe-sm-5 pe-lg-0">
                                 <h5 class="fw-semibold text-start text-black text-opacity-75 mb-2">Basic
                                     UI/UX Design
                                 </h5>
-                                <p class="text-secondary text-start lh-sm mb-3 mb-sm-2"> <small>This course is just
+                                <p class="text-secondary text-start lh-sm mb-3 mb-sm-2 pe-4 pe-sm-0"><small>This
+                                        course is just
                                         awesome. This will definitely a great option for you to choose.</small>
                                 </p>
-                                <p class="text-start text-primary bg-gradient fw-semibold lh-sm mb-0"><small>Price:
-                                        35$</small> </p>
+                                <p class="text-start text-primary bg-gradient fw-semibold lh-sm mb-0"><small
+                                        class="fs-price">Price :
+                                        35$</small>
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -275,19 +294,23 @@
                 <!-- single course 5 start -->
                 <div class="col-12 col-sm-12 col-lg-6 d-none d-lg-block" id="course-5">
                     <div
-                        class="row border border-dark border-opacity-10 rounded-1 d-flex flex-column d-sm-flex flex-sm-row">
-                        <div class="col-12 col-sm-3 col-lg-4 ps-0">
-                            <img src="images/course/course-5.png" class="w-100 h-100 h-img mb-3 mb-sm-0" alt="course-5">
+                        class="row border border-dark border-opacity-10 rounded d-flex flex-column d-sm-flex flex-sm-row">
+                        <div class="col-12 col-sm-3 col-lg-4 px-0 px-sm-2 ps-sm-0">
+                            <img src="images/course/course-5.png" class="w-100 course-img mb-3 mb-sm-0" alt="course-5">
                         </div>
-                        <div class="col-12 col-sm-9 col-lg-8 d-flex justify-content-center align-items-center">
-                            <div class="ps-sm-0 pe-2">
+                        <div
+                            class="col-12 col-sm-9 col-lg-8 d-flex justify-content-center align-items-center course-info mb-0">
+                            <div class="ps-2 ps-sm-1 pe-sm-5 pe-lg-0">
                                 <h5 class="fw-semibold text-start text-black text-opacity-75 mb-2">Motion
                                     Graphics</h5>
-                                <p class="text-secondary text-start lh-sm mb-3 mb-sm-2"> <small>This course is just
+                                <p class="text-secondary text-start lh-sm mb-3 mb-sm-2 pe-4 pe-sm-0"><small>This
+                                        course is just
                                         awesome. This will definitely a great option for you to choose.</small>
                                 </p>
-                                <p class="text-start text-primary bg-gradient fw-semibold lh-sm mb-0"><small>Price:
-                                        40$</small> </p>
+                                <p class="text-start text-primary bg-gradient fw-semibold lh-sm mb-0"><small
+                                        class="fs-price">Price :
+                                        40$</small>
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -297,20 +320,24 @@
                 <!-- single course 6 start -->
                 <div class="col-12 col-sm-12 col-lg-6 d-none d-lg-block" id="course-6">
                     <div
-                        class="row border border-dark border-opacity-10 rounded-1 d-flex flex-column d-sm-flex flex-sm-row ">
-                        <div class="col-12 col-sm-3 col-lg-4 ps-0">
-                            <img src="images/course/course-6.png" class="w-100 h-100 h-img mb-3 mb-sm-0" alt="course-6">
+                        class="row border border-dark border-opacity-10 rounded d-flex flex-column d-sm-flex flex-sm-row ">
+                        <div class="col-12 col-sm-3 col-lg-4 px-0 px-sm-2 ps-sm-0">
+                            <img src="images/course/course-6.png" class="w-100 course-img mb-3 mb-sm-0" alt="course-6">
                         </div>
-                        <div class="col-12 col-sm-9 col-lg-8 d-flex justify-content-center align-items-center">
-                            <div class="ps-sm-0 pe-2">
+                        <div
+                            class="col-12 col-sm-9 col-lg-8 d-flex justify-content-center align-items-center course-info mb-0">
+                            <div class="ps-2 ps-sm-1 pe-sm-5 pe-lg-0">
                                 <h5 class="fw-semibold text-start text-black text-opacity-75 mb-2">Digital
                                     Marketing
                                 </h5>
-                                <p class="text-secondary text-start lh-sm mb-3 mb-sm-2"> <small>This course is just
+                                <p class="text-secondary text-start lh-sm mb-3 mb-sm-2 pe-4 pe-sm-0"><small>This
+                                        course is just
                                         awesome. This will definitely a great option for you to choose.</small>
                                 </p>
-                                <p class="text-start text-primary bg-gradient fw-semibold lh-sm mb-0"><small>Price:
-                                        30$</small> </p>
+                                <p class="text-start text-primary bg-gradient fw-semibold lh-sm mb-0"><small
+                                        class="fs-price">Price :
+                                        30$</small>
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -320,20 +347,24 @@
                 <!-- single course 7 start -->
                 <div class="col-12 col-sm-12 col-lg-6 d-none" id="course-7">
                     <div
-                        class="row border border-dark border-opacity-10 rounded-1 d-flex flex-column d-sm-flex flex-sm-row ">
-                        <div class="col-12 col-sm-3 col-lg-4 ps-0">
-                            <img src="images/course/course-7.png" class="w-100 h-100 h-img mb-3 mb-sm-0" alt="course-7">
+                        class="row border border-dark border-opacity-10 rounded d-flex flex-column d-sm-flex flex-sm-row ">
+                        <div class="col-12 col-sm-3 col-lg-4 px-0 px-sm-2 ps-sm-0">
+                            <img src="images/course/course-7.png" class="w-100 course-img mb-3 mb-sm-0" alt="course-7">
                         </div>
-                        <div class="col-12 col-sm-9 col-lg-8 d-flex justify-content-center align-items-center">
-                            <div class="ps-sm-0 pe-2">
+                        <div
+                            class="col-12 col-sm-9 col-lg-8 d-flex justify-content-center align-items-center course-info mb-0">
+                            <div class="ps-2 ps-sm-1 pe-sm-5 pe-lg-0">
                                 <h5 class="fw-semibold text-start text-black text-opacity-75 mb-2">Cyber
-                                    Security Basic
+                                    Security
                                 </h5>
-                                <p class="text-secondary text-start lh-sm mb-3 mb-sm-2"> <small>This course is just
+                                <p class="text-secondary text-start lh-sm mb-3 mb-sm-2 pe-4 pe-sm-0"><small>This
+                                        course is just
                                         awesome. This will definitely a great option for you to choose.</small>
                                 </p>
-                                <p class="text-start text-primary bg-gradient fw-semibold lh-sm mb-0"><small>Price:
-                                        45$</small> </p>
+                                <p class="text-start text-primary bg-gradient fw-semibold lh-sm mb-0"><small
+                                        class="fs-price">Price :
+                                        45$</small>
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -343,20 +374,24 @@
                 <!-- single course 8 start -->
                 <div class="col-12 col-sm-12 col-lg-6 d-none" id="course-8">
                     <div
-                        class="row border border-dark border-opacity-10 rounded-1 d-flex flex-column d-sm-flex flex-sm-row ">
-                        <div class="col-12 col-sm-3 col-lg-4 ps-0">
-                            <img src="images/course/course-8.png" class="w-100 h-100 h-img mb-3 mb-sm-0" alt="course-8">
+                        class="row border border-dark border-opacity-10 rounded d-flex flex-column d-sm-flex flex-sm-row ">
+                        <div class="col-12 col-sm-3 col-lg-4 px-0 px-sm-2 ps-sm-0">
+                            <img src="images/course/course-8.png" class="w-100 course-img mb-3 mb-sm-0" alt="course-8">
                         </div>
-                        <div class="col-12 col-sm-9 col-lg-8 d-flex justify-content-center align-items-center">
-                            <div class="ps-sm-0 pe-2">
+                        <div
+                            class="col-12 col-sm-9 col-lg-8 d-flex justify-content-center align-items-center course-info mb-0">
+                            <div class="ps-2 ps-sm-1 pe-sm-5 pe-lg-0">
                                 <h5 class="fw-semibold text-start text-black text-opacity-75 mb-2">Data
                                     Analytics
                                 </h5>
-                                <p class="text-secondary text-start lh-sm mb-3 mb-sm-2"> <small>This course is just
+                                <p class="text-secondary text-start lh-sm mb-3 mb-sm-2 pe-4 pe-sm-0"><small>This
+                                        course is just
                                         awesome. This will definitely a great option for you to choose.</small>
                                 </p>
-                                <p class="text-start text-primary bg-gradient fw-semibold lh-sm mb-0"><small>Price:
-                                        35$</small> </p>
+                                <p class="text-start text-primary bg-gradient fw-semibold lh-sm mb-0"><small
+                                        class="fs-price">Price :
+                                        35$</small>
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -383,15 +418,15 @@
 
 
         <!-- ------- ready-to-join section start ------- -->
-        <section class="container my-sm-4 my-lg-5 px-0 pt-3">
+        <section class="container my-sm-4 my-lg-5 px-4 px-sm-0 pt-2 pt-sm-3">
             <div class="card px-sm-5 py-sm-2 p-lg-5 bg-primary bg-gradient" id="ready-to-join">
                 <div
-                    class="card-body text-white text-center text-lg-start d-flex flex-column justify-content-center align-items-center d-lg-flex flex-lg-row justify-content-between px-2 py-4 p-sm-5 py-lg-4 px-lg-4">
+                    class="card-body text-white text-center text-lg-start d-flex flex-column justify-content-center align-items-center d-lg-flex flex-lg-row justify-content-between my-3 my-sm-0 px-4 p-sm-5 p-lg-4">
 
                     <div class="mb-3 d-block d-lg-none">
-                        <h2 class="card-title mb-3 fw-semibold">Ready to Join?</h2>
+                        <h2 class="card-title mb-3 fw-semibold fs-mob">Ready to Join?</h2>
                         <div>
-                            <small class="card-text fw-lighter lh-custom">Curiosity is the process of asking questions,
+                            <small class="card-text fw-lighter lh-tab">Curiosity is the process of asking questions,
                                 genuine questions, that are not leading to an ask for something in return.
                             </small>
                         </div>
@@ -465,10 +500,11 @@
 
 
         <!-- ------- frequently-asked-questions section start ------- -->
-        <section class="container pt-sm-2 pt-lg-4 p-0">
-            <div class="mt-sm-5 mt-lg-5">
-                <h1 class="fw-semibold text-center mb-3 mb-lg-4 fs-custom-h1" id="faq">Frequently Asked Questions</h1>
-                <p class="text-center text-secondary w-50 mx-auto w-faq lh-custom">
+        <section class="container pt-2 pt-sm-2 pt-lg-4 p-0">
+            <div class="mt-5 mt-sm-5 mt-lg-5">
+                <h1 class="fw-semibold text-center mb-3 mb-lg-4 fs-tab fs-mob" id="faq">Frequently Asked Questions
+                </h1>
+                <p class="text-center text-secondary w-50 mx-auto w-faq lh-tab">
                     <small>Curiosity is the process of asking
                         questions, genuine
                         questions, that are not leading to an ask for something in return.
@@ -477,7 +513,8 @@
             </div>
 
             <!-- ------- accordion part start------- -->
-            <div class="accordion w-75 w-accordian mx-auto mt-5 my-lg-5 px-lg-5 border border-0" id="accordionExample">
+            <div class="accordion w-75 w-accordian mx-auto mt-4 mt-sm-5 my-lg-5 px-4 px-sm-0 px-lg-5 border border-0"
+                id="accordionExample">
                 <div class="accordion-item mb-3 border border-0">
                     <h2 class="accordion-header" id="headingOne">
                         <button
@@ -489,7 +526,7 @@
                     </h2>
                     <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
                         data-bs-parent="#accordionExample">
-                        <div class="accordion-body text-secondary px-0 pe-3 px-lg-4 pb-0 lh-custom">
+                        <div class="accordion-body text-secondary px-0 pe-3 px-lg-4 pb-0 lh-tab">
                             <small>
                                 The key difference is that CSS Grid can be used to create two-dimensional layouts, while
                                 Flexbox
@@ -514,7 +551,7 @@
                     </h2>
                     <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                         data-bs-parent="#accordionExample">
-                        <div class="accordion-body text-secondary px-0 pe-3 px-lg-4 pb-0 lh-custom">
+                        <div class="accordion-body text-secondary px-0 pe-3 px-lg-4 pb-0 lh-tab">
                             <small>
                                 Bootstrap comes with a set of pre-styled responsive, mobile-first components that
                                 possess a
@@ -540,7 +577,7 @@
                     </h2>
                     <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
                         data-bs-parent="#accordionExample">
-                        <div class="accordion-body text-secondary px-0 pe-3 px-lg-4 pb-0 lh-custom">
+                        <div class="accordion-body text-secondary px-0 pe-3 px-lg-4 pb-0 lh-tab">
                             <small>
                                 The CSS box model is a container that contains multiple properties including borders,
                                 margin, padding, and the content itself. It is used to create the design and layout of
@@ -563,7 +600,7 @@
                     </h2>
                     <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
                         data-bs-parent="#accordionExample">
-                        <div class="accordion-body text-secondary px-0 pe-3 px-lg-4 pb-0 lh-custom">
+                        <div class="accordion-body text-secondary px-0 pe-3 px-lg-4 pb-0 lh-tab">
                             <small>
                                 HTML Semantic tags are those that clearly describe their meaning in a human and
                                 machine-readable way. A semantic tag clearly describes its meaning to both the browser
@@ -604,29 +641,31 @@
 
     <!-- ------- footer section start ------- -->
     <footer class="text-center bg-dark text-white p-5 mt-5 pb-3 pb-sm-5 pt-5">
-        <h2 class="text-center mt-sm-3 mt-lg-5 mb-3 fw-semibold pt-lg-4 fs-custom-h1">Teach Hero</h2>
-        <div class="text-center fw-lighter" id="contact">
-            <small>Office 47/A, Block-D, New Building, Gulshan Area <br>
-                Dhaka-1212, Bangladesh </small>
-        </div>
-        <div class="fw-lighter my-2">
-            <a href="index.html" class="text-decoration-none text-white"><small>Privacy Policy</small></a> |
-            <a href="index.html" class="text-decoration-none text-white"><small>Terms of Service</small></a>
-        </div>
-
-        <div class="text-center mb-2">
-            <div class="fs-5">
-                <a href="https://web.facebook.com/" target="_blank"><i
-                        class="fa-brands fa-facebook pe-2 text-primary"></i></a>
-                <a href="https://www.youtube.com/" target="_blank"><i
-                        class="fa-brands fa-youtube px-2 text-danger"></i></a>
-                <a href="https://twitter.com/?lang=en" target="_blank"><i
-                        class="fa-brands fa-twitter ps-2 text-info"></i></a>
+        <div class="mx-auto">
+            <h2 class="text-center mt-sm-3 mt-lg-5 mb-3 fw-semibold pt-lg-4 fs-tab">Teach Hero</h2>
+            <div class="text-center fw-lighter" id="contact">
+                <small>Office 47/A, New Building, Gulshan Area <br>
+                    Dhaka, Bangladesh </small>
             </div>
+            <div class="fw-lighter my-2">
+                <a href="index.html" class="text-decoration-none text-white"><small>Privacy Policy</small></a> |
+                <a href="index.html" class="text-decoration-none text-white"><small>Terms of Service</small></a>
+            </div>
+
+            <div class="text-center mb-2">
+                <div class="fs-5">
+                    <a href="https://web.facebook.com/" target="_blank"><i
+                            class="fa-brands fa-facebook pe-2 text-primary"></i></a>
+                    <a href="https://www.youtube.com/" target="_blank"><i
+                            class="fa-brands fa-youtube px-2 text-danger"></i></a>
+                    <a href="https://twitter.com/?lang=en" target="_blank"><i
+                            class="fa-brands fa-twitter ps-2 text-info"></i></a>
+                </div>
+            </div>
+            <p class="text-center fw-lighter mb-3 mb-sm-2 mb-lg-5">
+                <span>© 2022 ||</span> <a class="text-decoration-none text-white" href="index.html">Teach Hero</a>
+            </p>
         </div>
-        <p class="text-center fw-lighter mb-3 mb-sm-2 mb-lg-5">
-            <span>© 2022 ||</span> <a class="text-decoration-none text-white" href="index.html">Teach Hero</a>
-        </p>
     </footer>
     <!-- ------- footer section end ------- -->
 
